@@ -1,0 +1,35 @@
+.services .container {
+    padding: 30px;
+    width: 32%;
+    background-color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            background-color: $cyan;
+            border-radius: 50%;
+            padding: 10px;
+            width: 56px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 36px;
+            font-weight: 500;
+            color: $blue;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+}
